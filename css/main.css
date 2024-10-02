@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: calc( 100% - 120px );
+    margin: auto;
+}
+.row .recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.recipe img{
+    width: 250px;
+    height: 250px;
+
+}
